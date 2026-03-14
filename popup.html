@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      cursor: pointer;
+      background: #25D366;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    #output {
+      max-height: 300px;
+      overflow-y: auto;
+      margin-top: 10px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <h3>WhatsApp Extractor</h3>
+  <button id="extractMessages">Extract Messages</button>
+  <button id="extractContacts">Extract Contacts</button>
+  <button id="downloadData">Download as JSON</button>
+  <div id="output"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
